@@ -1,5 +1,5 @@
 
-<img width="1711" height="1172" alt="image" src="https://github.com/user-attachments/assets/aecc0057-b0c0-4929-acd6-290fce8ce735" />
+<img width="754" height="1053" alt="image" src="https://github.com/user-attachments/assets/629960e7-7149-41af-9aa7-6e9020639fb5" />
 
 Entities
 Strong: Customer, LoanOfficer, LoanProduct, RiskAssessment, Loan
