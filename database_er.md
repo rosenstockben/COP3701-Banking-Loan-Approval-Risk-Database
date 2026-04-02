@@ -1,22 +1,23 @@
 
-<img width="754" height="1053" alt="image" src="https://github.com/user-attachments/assets/629960e7-7149-41af-9aa7-6e9020639fb5" />
+![alt text](image-2.png)
+
 
 Entities
-Strong: Customer, LoanOfficer, LoanProduct, RiskAssessment, Loan
-Weak: LoanPayment 
-Associative: LoanApplication 
+Strong: Customer, LoanApp, Loan, Risk
+Weak: LoanPayment
+Associative: LoanApp
 
 Relationships
-One to One: LoanApplication 
-One to Many: Customer  
-Many to Many: LoanProduct 
+One to One: Loan - Risk
+One to Many: Customer - LoanApp
+One to Many: Loan - LoanPayment
+Many to Many: none
 
 Attributes
-Identifier: CustomerID, ApplicationID, LoanID, AssessmentID
-Mandatory: FullName, RequestedAmount, ApplicationDate, PaymentDate, Status
-Optional: Email, Notes, MiddleName
-Singlevalue: CreditScore, RiskScore, InterestRate, PhoneNumber
-
+Identifier: CUSTID, LOAN_APP_ID, LOANID
+Mandatory: GENDER, MARRIED, EDUCATION, INCOME, CREDIT_SCORE, LOAN_AMMOUNT, APPLICATION_DATE, APP_STATUS, APPROVED_AMOUNT, INTEREST_RATE, START_DATE, RISK_SCORE, APPROVE, PAYMENT_DATE, AMMOUNT_PAYED
+Optional: none
+Singlevalue: CREDIT_SCORE, RISK_SCORE, INTEREST_RATE, INCOME, LOAN_AMMOUNT, APPROVED_AMOUNT, AMMOUNT_PAYED
 
 
 
