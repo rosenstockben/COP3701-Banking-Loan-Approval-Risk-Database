@@ -7,3 +7,4 @@ I would get informaiton through applications to sign up for the bank and monitor
 
 The users would be members of the bank who require loans whether they are falling on rough times, need an expensive purchase such as a car or home, or those wishing to start a business.
 
+<img width="743" height="1207" alt="Screenshot 2026-04-01 222631" src="https://github.com/user-attachments/assets/aa5c2405-5835-47d0-b95a-0963275a4828" />
